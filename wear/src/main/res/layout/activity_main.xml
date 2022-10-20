@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_boxedEdges="all">
+
+        <TextView
+            android:id="@+id/Time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Time"/>
+        <TextView
+            android:id="@+id/xText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="X"/>
+        <TextView
+            android:id="@+id/yText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Y"/>
+        <TextView
+            android:id="@+id/zText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Z"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="START"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/b_start"/>
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="RESET"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/b_reset"/>
+</androidx.wear.widget.BoxInsetLayout>
