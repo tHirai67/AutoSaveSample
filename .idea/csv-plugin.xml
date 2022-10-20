@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="C:\Users\Tatsu\AppData\Local\Google\AndroidStudio2021.2\device-explorer\asus-asus_x01ad-L1AXGF01J249BGB\data\data\com.example.autosavesample\files\20221020_151506.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

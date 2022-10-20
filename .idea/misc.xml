@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Tatsu/AndroidStudioProjects/AutoSaveSample/mobile/src/main/res/drawable-v24/ic_baseline_brightness_auto_24.xml" value="0.151" />
         <entry key="..\:/Users/Tatsu/AndroidStudioProjects/AutoSaveSample/mobile/src/main/res/layout/activity_main.xml" value="0.18565400843881857" />
         <entry key="..\:/Users/Tatsu/AndroidStudioProjects/AutoSaveSample/wear/src/main/res/drawable/b_reset.xml" value="0.317" />
         <entry key="..\:/Users/Tatsu/AndroidStudioProjects/AutoSaveSample/wear/src/main/res/drawable/b_start.xml" value="0.317" />
